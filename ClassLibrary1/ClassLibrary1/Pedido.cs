@@ -10,8 +10,6 @@ namespace ClassLibrary1
     {
         public int Id { get; set; } = 1;
 
-        public float Propina { get; set; }
-
         public List<string> Productos_pedido { get; set; }
 
         public int Numero_mesa { get; set; }
@@ -21,7 +19,7 @@ namespace ClassLibrary1
             Id++;
             Productos_pedido = productos;
             Numero_mesa = numero_mesa;
-            Propina = 0;
+
         }
     }
 }
