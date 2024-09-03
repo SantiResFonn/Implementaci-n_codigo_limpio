@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Gestor.cs" />
-    <Compile Include="Inicializar.cs" />
     <Compile Include="Inventario.cs" />
     <Compile Include="Simulacion.cs" />
     <Compile Include="Material.cs" />
