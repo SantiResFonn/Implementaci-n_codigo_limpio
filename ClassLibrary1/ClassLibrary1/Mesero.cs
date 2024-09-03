@@ -8,7 +8,7 @@ namespace ClassLibrary1
     public class Mesero
     {
         public string Nombre { get; set; }
-        public int Propinas { get; set; }
+        public float Propinas { get; set; }
         public List<int> Pedidos_tomados { get; set; }
         public Mesero(string nombre) {
             Nombre = nombre;

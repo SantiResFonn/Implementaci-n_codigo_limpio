@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class Mesa
+    public class Mesa
     {
         public int numero_mesa = 0;
         public int Capacidad;

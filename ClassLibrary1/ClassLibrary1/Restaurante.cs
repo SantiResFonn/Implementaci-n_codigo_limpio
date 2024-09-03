@@ -9,12 +9,13 @@ namespace ClassLibrary1
 {
     public class Restaurante
     {
-        public Array Mesas { get; set; }
         public List<Mesero> Meseros { get; set; }
         public Menu Menu_restaurante { get; set; }
-        public Administrador Administrador { get; set; }
+
+        public string Administrador = "12345";
         public Inventario Inventario { get; set; }
         public List<Pedido> Pedidos { get; set; }
+        public List<Mesa> Mesas { get; set; }
 
         public void Crear_pedido(string nombre_mesero, List<string> productos, int numero_mesa)
         {
@@ -61,6 +62,16 @@ namespace ClassLibrary1
                     }
                 }
 
+            }
+            foreach(Mesero mesero in Meseros)
+            {
+                foreach(int pedido in mesero.Pedidos_tomados)
+                {
+                    if(pedido == id_pedido)
+                    {
+                        mesero.Propinas = mesero.Propinas + (valor_total / 10);
+                    }
+                }
             }
             return valor_total;
         }
@@ -113,6 +124,7 @@ namespace ClassLibrary1
         public void Agregar_mesa(int capacidad)
         {
             Mesa nueva_mesa = new Mesa(capacidad);
+            Mesas.Add(nueva_mesa);
 
         }
     }

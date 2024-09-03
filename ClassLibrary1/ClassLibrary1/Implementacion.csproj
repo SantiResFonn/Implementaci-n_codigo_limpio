@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrador.cs" />
+    <Compile Include="Gestor.cs" />
+    <Compile Include="Inicializar.cs" />
     <Compile Include="Inventario.cs" />
+    <Compile Include="Simulacion.cs" />
     <Compile Include="Material.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Mesa.cs" />
