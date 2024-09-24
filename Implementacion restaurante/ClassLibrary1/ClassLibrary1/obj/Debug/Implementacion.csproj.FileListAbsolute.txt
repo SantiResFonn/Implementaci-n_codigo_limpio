@@ -1,0 +1,6 @@
+C:\Users\Santiago\Desktop\Codigo Limpio\Implementacion restaurante\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Santiago\Desktop\Codigo Limpio\Implementacion restaurante\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Santiago\Desktop\Codigo Limpio\Implementacion restaurante\ClassLibrary1\ClassLibrary1\obj\Debug\Implementacion.csproj.AssemblyReference.cache
+C:\Users\Santiago\Desktop\Codigo Limpio\Implementacion restaurante\ClassLibrary1\ClassLibrary1\obj\Debug\Implementacion.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\Desktop\Codigo Limpio\Implementacion restaurante\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Santiago\Desktop\Codigo Limpio\Implementacion restaurante\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
